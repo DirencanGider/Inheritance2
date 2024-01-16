@@ -19,7 +19,7 @@ public class Kopek extends Hayvan {
 
         /*
         super'i kaldırıp Hayvan superclassının içerisindeki metodu kopyalayıp yukarıya olduğu gibi yapıştırdık. Aşağıya direkt metodu
-        yazıyoruz ve override etmiş oluyoruz.
+        yazıyoruz ve override etmiş oluyoruz. Ya da sağ tıklayıp Generate içeisinden Override Method ile de metodu seçerek aynı işlemi tekrarlayabiliriz.
         */
 
         harekete_gec(hiz); //Override edip bu şekilde kullanmamız daha güvenli. Daha sonra kodumuzu değiştirmek zorunda kalmıyoruz. Override metodlar öncellikli kullanılır.
